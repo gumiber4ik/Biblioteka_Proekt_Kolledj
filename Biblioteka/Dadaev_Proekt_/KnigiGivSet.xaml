@@ -1,0 +1,40 @@
+﻿<Window x:Class="Dadaev_Proekt_.KnigiGivSet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dadaev_Proekt_"
+        mc:Ignorable="d"
+        Title="Выдача книги" Height="450" Width="400" Icon="ICO/app.png">
+    <Grid Margin="0,0,5,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="35*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Логотип и название -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0,10,0" Grid.ColumnSpan="2">
+            <Image Source="/ICO/logo.png" Width="50" Height="50" Margin="0,0,10,0" />
+            <TextBlock Text="Библиотека" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- Выпадающие списки для выбора студента и книги, и DatePicker для даты возврата -->
+        <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10,10,10,45" Grid.ColumnSpan="2">
+            <TextBlock Text="Выберите студента:"/>
+            <ComboBox x:Name="cbStudents" Width="300" Margin="5" Height="30" Text="Выберите студента"/>
+            <TextBlock Text="Выберите книгу:"/>
+            <ComboBox x:Name="cbBooks" Width="300" Margin="5" Height="30" Text="Выберите книгу"/>
+            <TextBlock Text="Выберите дату возрата:"/>
+            <DatePicker x:Name="dpReturnDate" Margin="5" Height="30" Text="Дата возврата" Width="300"/>
+        </StackPanel>
+
+        <!-- Кнопка для выдачи книги -->
+        <Button Grid.Row="1" Content="Выдать книгу" Width="200" Margin="17.77,262,0,77" Height="30" HorizontalAlignment="Left" Click="IssueBook_Click" Grid.Column="1"/>
+    </Grid>
+</Window>

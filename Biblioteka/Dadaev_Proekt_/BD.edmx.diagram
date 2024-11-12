@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3b6d8e684d7943adb8f2f176f9bb3425" Name="Diagram1">
+        <EntityTypeShape EntityType="user97_dbModel.AK_Authors" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Book_Publisher" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Books" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Fines" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Genres" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Loans" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Publishers" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Publishers_soedin" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Role" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user97_dbModel.AK_Users" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="user97_dbModel.FK__K_Books__Author___77EB7F71" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK_AK_Book_Publisher_AK_Books" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK_AK_Book_Publisher_AK_Publishers" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK__K_Books__Genre_I__78DFA3AA" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK__K_Loans__Book_ID__0174E9AB" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK__K_Loans__User_ID__0080C572" ManuallyRouted="false" />
+        <AssociationConnector Association="user97_dbModel.FK_K_Users_K_Role1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\knigiset.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\knigiset.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|f:\\\u043A\u043E\u043B\u043B\u0435\u0434\u0436\\proekt\\p\\dadaev_proekt_\\dadaev_proekt_\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\user.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\student.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\addbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\addbook.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\bibliotecar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\bibliotecar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\addbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\addbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\adduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\adduser.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\admin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\bibliotecar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\bibliotecar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\adduser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\admin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\student.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\knigigivset.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\knigigivset.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\userbooklist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\userbooklist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\userbooklist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\userbooklist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\user.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\knigigivset.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\knigigivset.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\knigiset.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\knigiset.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\bd.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\bd.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\dadaev_proekt_\\bd.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79391CC4-8786-4DDB-81BA-8CC346B0D866}|Dadaev_Proekt_\\Dadaev_Proekt_.csproj|solutionrelative:dadaev_proekt_\\bd.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "adduser.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\adduser.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\adduser.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\adduser.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\adduser.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACsAAAAwAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "admin.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\admin.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\admin.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\admin.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\admin.xaml.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAMwEEAAAAqAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "admin.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\admin.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\admin.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\admin.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\admin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "user.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\user.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\user.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\user.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\user.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KnigiSet.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiSet.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\KnigiSet.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiSet.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\KnigiSet.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:59.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "adduser.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\adduser.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\adduser.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\adduser.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\adduser.xaml.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAawKoAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "student.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\student.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\student.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\student.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\student.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:59.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KnigiGivSet.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiGivSet.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\KnigiGivSet.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiGivSet.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\KnigiGivSet.xaml.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAAwJ0AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:59.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BD.Context.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\BD.Context.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\BD.Context.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\BD.Context.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\BD.Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABGAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:59.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BD.edmx [Diagram1]",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\BD.edmx",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\BD.edmx",
+              "ToolTip": "E:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\BD.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-09T10:21:59.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KnigiSet.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiSet.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\KnigiSet.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiSet.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\KnigiSet.xaml.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAzwH4AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:59.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "addbook.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\addbook.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\addbook.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\addbook.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\addbook.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bibliotecar.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\bibliotecar.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\bibliotecar.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\bibliotecar.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\bibliotecar.xaml.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAA0wFEAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bibliotecar.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\bibliotecar.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\bibliotecar.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\bibliotecar.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\bibliotecar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\MainWindow.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\MainWindow.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KnigiGivSet.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiGivSet.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\KnigiGivSet.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\KnigiGivSet.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\KnigiGivSet.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "userbooklist.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\userbooklist.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\userbooklist.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\userbooklist.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\userbooklist.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAxwEIAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "userbooklist.xaml",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\userbooklist.xaml",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\userbooklist.xaml",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\userbooklist.xaml",
+              "RelativeToolTip": "Dadaev_Proekt_\\userbooklist.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-09T10:21:58.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "addbook.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\addbook.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\addbook.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\addbook.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\addbook.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowE8AAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "user.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\user.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\user.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\user.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\user.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwEQAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:58.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "student.xaml.cs",
+              "DocumentMoniker": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\student.xaml.cs",
+              "RelativeDocumentMoniker": "Dadaev_Proekt_\\student.xaml.cs",
+              "ToolTip": "F:\\\u041A\u043E\u043B\u043B\u0435\u0434\u0436\\Proekt\\P\\Dadaev_Proekt_\\Dadaev_Proekt_\\student.xaml.cs",
+              "RelativeToolTip": "Dadaev_Proekt_\\student.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwFUAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-11-09T10:21:59.001Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

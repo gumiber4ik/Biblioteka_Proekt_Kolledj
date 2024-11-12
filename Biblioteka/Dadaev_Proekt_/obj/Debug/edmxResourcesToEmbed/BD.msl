@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище user97_dbModelContainer" CdmEntityContainer="user97_dbEntities1">
+    <EntitySetMapping Name="AK_Authors">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Authors">
+        <MappingFragment StoreEntitySet="AK_Authors">
+          <ScalarProperty Name="Author_ID" ColumnName="Author_ID" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="year_of_birth" ColumnName="year_of_birth" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Book_Publisher">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Book_Publisher">
+        <MappingFragment StoreEntitySet="AK_Book_Publisher">
+          <ScalarProperty Name="Book_ID" ColumnName="Book_ID" />
+          <ScalarProperty Name="Publisher_ID" ColumnName="Publisher_ID" />
+          <ScalarProperty Name="ID_Book_Publisher" ColumnName="ID_Book_Publisher" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Books">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Books">
+        <MappingFragment StoreEntitySet="AK_Books">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Author_ID" ColumnName="Author_ID" />
+          <ScalarProperty Name="Genre_ID" ColumnName="Genre_ID" />
+          <ScalarProperty Name="Number_of_Copies" ColumnName="Number_of_Copies" />
+          <ScalarProperty Name="Number_of_strats" ColumnName="Number_of_strats" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Fines">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Fines">
+        <MappingFragment StoreEntitySet="AK_Fines">
+          <ScalarProperty Name="Fine_ID" ColumnName="Fine_ID" />
+          <ScalarProperty Name="Fine_Amount" ColumnName="Fine_Amount" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="Loan_ID" ColumnName="Loan_ID" />
+          <ScalarProperty Name="Returned" ColumnName="Returned" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Genres">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Genres">
+        <MappingFragment StoreEntitySet="AK_Genres">
+          <ScalarProperty Name="Genre_ID" ColumnName="Genre_ID" />
+          <ScalarProperty Name="Genre_Name" ColumnName="Genre_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Loans">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Loans">
+        <MappingFragment StoreEntitySet="AK_Loans">
+          <ScalarProperty Name="Loan_ID" ColumnName="Loan_ID" />
+          <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+          <ScalarProperty Name="Book_ID" ColumnName="Book_ID" />
+          <ScalarProperty Name="Issue_Date" ColumnName="Issue_Date" />
+          <ScalarProperty Name="Return_Date" ColumnName="Return_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Publishers">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Publishers">
+        <MappingFragment StoreEntitySet="AK_Publishers">
+          <ScalarProperty Name="Publisher_ID" ColumnName="Publisher_ID" />
+          <ScalarProperty Name="Publisher_Name" ColumnName="Publisher_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Publishers_soedin">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Publishers_soedin">
+        <MappingFragment StoreEntitySet="AK_Publishers_soedin">
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Publisher_ID" ColumnName="Publisher_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Role">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Role">
+        <MappingFragment StoreEntitySet="AK_Role">
+          <ScalarProperty Name="K_Role_ID" ColumnName="K_Role_ID" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AK_Users">
+      <EntityTypeMapping TypeName="user97_dbModel.AK_Users">
+        <MappingFragment StoreEntitySet="AK_Users">
+          <ScalarProperty Name="User_ID" ColumnName="User_ID" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Role_ID" ColumnName="Role_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

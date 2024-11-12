@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user97_dbModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AK_Authors">
+    <Key>
+      <PropertyRef Name="Author_ID" />
+    </Key>
+    <Property Name="Author_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="year_of_birth" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Book_Publisher">
+    <Key>
+      <PropertyRef Name="ID_Book_Publisher" />
+    </Key>
+    <Property Name="Book_ID" Type="int" Nullable="false" />
+    <Property Name="Publisher_ID" Type="int" Nullable="false" />
+    <Property Name="ID_Book_Publisher" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Books">
+    <Key>
+      <PropertyRef Name="ISBN" />
+    </Key>
+    <Property Name="ISBN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Author_ID" Type="int" Nullable="false" />
+    <Property Name="Genre_ID" Type="int" Nullable="false" />
+    <Property Name="Number_of_Copies" Type="int" Nullable="false" />
+    <Property Name="Number_of_strats" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Fines">
+    <Key>
+      <PropertyRef Name="Fine_ID" />
+    </Key>
+    <Property Name="Fine_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fine_Amount" Type="int" Nullable="false" />
+    <Property Name="Reason" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Paid" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Loan_ID" Type="int" Nullable="false" />
+    <Property Name="Returned" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Genres">
+    <Key>
+      <PropertyRef Name="Genre_ID" />
+    </Key>
+    <Property Name="Genre_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Genre_Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Loans">
+    <Key>
+      <PropertyRef Name="Loan_ID" />
+    </Key>
+    <Property Name="Loan_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_ID" Type="int" Nullable="false" />
+    <Property Name="Book_ID" Type="int" Nullable="false" />
+    <Property Name="Issue_Date" Type="date" Nullable="false" />
+    <Property Name="Return_Date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Publishers">
+    <Key>
+      <PropertyRef Name="Publisher_ID" />
+    </Key>
+    <Property Name="Publisher_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Publisher_Name" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Publishers_soedin">
+    <Key>
+      <PropertyRef Name="ISBN" />
+      <PropertyRef Name="Publisher_ID" />
+    </Key>
+    <Property Name="ISBN" Type="int" Nullable="false" />
+    <Property Name="Publisher_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Role">
+    <Key>
+      <PropertyRef Name="K_Role_ID" />
+    </Key>
+    <Property Name="K_Role_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Role_Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AK_Users">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="First_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Last_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Role_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__K_Books__Author___77EB7F71">
+    <End Role="AK_Authors" Type="Self.AK_Authors" Multiplicity="1" />
+    <End Role="AK_Books" Type="Self.AK_Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Authors">
+        <PropertyRef Name="Author_ID" />
+      </Principal>
+      <Dependent Role="AK_Books">
+        <PropertyRef Name="Author_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__K_Books__Genre_I__78DFA3AA">
+    <End Role="AK_Genres" Type="Self.AK_Genres" Multiplicity="1" />
+    <End Role="AK_Books" Type="Self.AK_Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Genres">
+        <PropertyRef Name="Genre_ID" />
+      </Principal>
+      <Dependent Role="AK_Books">
+        <PropertyRef Name="Genre_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__K_Loans__Book_ID__0174E9AB">
+    <End Role="AK_Books" Type="Self.AK_Books" Multiplicity="1" />
+    <End Role="AK_Loans" Type="Self.AK_Loans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Books">
+        <PropertyRef Name="ISBN" />
+      </Principal>
+      <Dependent Role="AK_Loans">
+        <PropertyRef Name="Book_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__K_Loans__User_ID__0080C572">
+    <End Role="AK_Users" Type="Self.AK_Users" Multiplicity="1" />
+    <End Role="AK_Loans" Type="Self.AK_Loans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Users">
+        <PropertyRef Name="User_ID" />
+      </Principal>
+      <Dependent Role="AK_Loans">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AK_Book_Publisher_AK_Books">
+    <End Role="AK_Books" Type="Self.AK_Books" Multiplicity="1" />
+    <End Role="AK_Book_Publisher" Type="Self.AK_Book_Publisher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Books">
+        <PropertyRef Name="ISBN" />
+      </Principal>
+      <Dependent Role="AK_Book_Publisher">
+        <PropertyRef Name="Book_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AK_Book_Publisher_AK_Publishers">
+    <End Role="AK_Publishers" Type="Self.AK_Publishers" Multiplicity="1" />
+    <End Role="AK_Book_Publisher" Type="Self.AK_Book_Publisher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Publishers">
+        <PropertyRef Name="Publisher_ID" />
+      </Principal>
+      <Dependent Role="AK_Book_Publisher">
+        <PropertyRef Name="Publisher_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_K_Users_K_Role1">
+    <End Role="AK_Role" Type="Self.AK_Role" Multiplicity="1" />
+    <End Role="AK_Users" Type="Self.AK_Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AK_Role">
+        <PropertyRef Name="K_Role_ID" />
+      </Principal>
+      <Dependent Role="AK_Users">
+        <PropertyRef Name="Role_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user97_dbModelContainer">
+    <EntitySet Name="AK_Authors" EntityType="Self.AK_Authors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Book_Publisher" EntityType="Self.AK_Book_Publisher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Books" EntityType="Self.AK_Books" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Fines" EntityType="Self.AK_Fines" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Genres" EntityType="Self.AK_Genres" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Loans" EntityType="Self.AK_Loans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Publishers" EntityType="Self.AK_Publishers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Publishers_soedin" EntityType="Self.AK_Publishers_soedin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Role" EntityType="Self.AK_Role" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AK_Users" EntityType="Self.AK_Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__K_Books__Author___77EB7F71" Association="Self.FK__K_Books__Author___77EB7F71">
+      <End Role="AK_Authors" EntitySet="AK_Authors" />
+      <End Role="AK_Books" EntitySet="AK_Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK__K_Books__Genre_I__78DFA3AA" Association="Self.FK__K_Books__Genre_I__78DFA3AA">
+      <End Role="AK_Genres" EntitySet="AK_Genres" />
+      <End Role="AK_Books" EntitySet="AK_Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK__K_Loans__Book_ID__0174E9AB" Association="Self.FK__K_Loans__Book_ID__0174E9AB">
+      <End Role="AK_Books" EntitySet="AK_Books" />
+      <End Role="AK_Loans" EntitySet="AK_Loans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__K_Loans__User_ID__0080C572" Association="Self.FK__K_Loans__User_ID__0080C572">
+      <End Role="AK_Users" EntitySet="AK_Users" />
+      <End Role="AK_Loans" EntitySet="AK_Loans" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AK_Book_Publisher_AK_Books" Association="Self.FK_AK_Book_Publisher_AK_Books">
+      <End Role="AK_Books" EntitySet="AK_Books" />
+      <End Role="AK_Book_Publisher" EntitySet="AK_Book_Publisher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AK_Book_Publisher_AK_Publishers" Association="Self.FK_AK_Book_Publisher_AK_Publishers">
+      <End Role="AK_Publishers" EntitySet="AK_Publishers" />
+      <End Role="AK_Book_Publisher" EntitySet="AK_Book_Publisher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_K_Users_K_Role1" Association="Self.FK_K_Users_K_Role1">
+      <End Role="AK_Role" EntitySet="AK_Role" />
+      <End Role="AK_Users" EntitySet="AK_Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

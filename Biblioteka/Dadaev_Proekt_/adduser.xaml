@@ -1,0 +1,66 @@
+﻿<Window x:Class="Dadaev_Proekt_.adduser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dadaev_Proekt_"
+        mc:Ignorable="d"
+        Title="Добавление пользователя" Height="580" Width="400" Icon="ICO/app.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Верхняя панель -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Логотип и название -->
+            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="10">
+                <Image Source="/ICO/logo.png" Width="50" Height="50" Margin="0,0,10,0" />
+                <TextBlock Text="Библиотека" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
+            </StackPanel>
+
+
+            <!-- Иконка пользователя -->
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <StackPanel>
+                <Label Content="Имя:"/>
+                <TextBox x:Name="firstNameTextBox"/>
+
+                <Label Content="Фамилия:"/>
+                <TextBox x:Name="lastNameTextBox"/>
+
+                <Label Content="Логин:"/>
+                <TextBox x:Name="loginTextBox" MaxLength="50"/>
+
+                <Label Content="Пароль:"/>
+                <PasswordBox x:Name="passwordBox" MaxLength="100"/>
+
+                <Label Content="Подтвердите пароль:"/>
+                <PasswordBox x:Name="confirmPasswordBox" MaxLength="100"/>
+
+                <Label Content="Роль:"/>
+                <ComboBox x:Name="roleComboBox">
+                    <ComboBoxItem Content="Библиотекарь" Tag="2"/>
+                    <ComboBoxItem Content="Студент" Tag="3"/>
+                </ComboBox>
+
+                <TextBox x:Name="searchTextBox" Margin="10" Text="Введите имя и фамилию для поиска"/>
+                <Button Content="Поиск" Margin="10" Click="SearchUser_Click"/>
+
+                <Button Content="Добавить пользователя" Margin="10" Click="AddUser_Click"/>
+                <Button Content="Изменить" Margin="10" Click="EditUser_Click"/>
+                <Button Content="Удалить" Margin="10" Click="DeleteUser_Click"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
